@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,29 +13,29 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TwoViews" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="krT-aF-fAb">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cU4-yV-ENK" userLabel="GreenView">
-                                <rect key="frame" x="56" y="40" width="206" height="190"/>
+                                <rect key="frame" x="56" y="84" width="300" height="359"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lLI-gi-YjT" userLabel="RedView">
-                                <rect key="frame" x="56" y="250" width="206" height="190"/>
+                                <rect key="frame" x="56" y="463" width="300" height="359"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="phT-G2-cCy"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
-                            <constraint firstItem="phT-G2-cCy" firstAttribute="bottom" secondItem="lLI-gi-YjT" secondAttribute="bottom" constant="40" id="5ec-VE-zOI"/>
-                            <constraint firstItem="cU4-yV-ENK" firstAttribute="height" secondItem="lLI-gi-YjT" secondAttribute="height" id="8SY-VE-3cU"/>
-                            <constraint firstItem="cU4-yV-ENK" firstAttribute="leading" secondItem="lLI-gi-YjT" secondAttribute="leading" id="AV1-Hu-I8e"/>
-                            <constraint firstItem="phT-G2-cCy" firstAttribute="trailing" secondItem="cU4-yV-ENK" secondAttribute="trailing" constant="58" id="F9t-yb-lCv"/>
-                            <constraint firstItem="cU4-yV-ENK" firstAttribute="bottom" secondItem="lLI-gi-YjT" secondAttribute="top" constant="-20" id="YTD-ms-mlx"/>
-                            <constraint firstItem="cU4-yV-ENK" firstAttribute="leading" secondItem="phT-G2-cCy" secondAttribute="leading" constant="56" id="Z5x-N6-06X"/>
-                            <constraint firstItem="cU4-yV-ENK" firstAttribute="top" secondItem="phT-G2-cCy" secondAttribute="top" constant="40" id="cfe-jz-ZjJ"/>
-                            <constraint firstItem="cU4-yV-ENK" firstAttribute="width" secondItem="lLI-gi-YjT" secondAttribute="width" id="kcf-Yz-PEG"/>
+                            <constraint firstItem="phT-G2-cCy" firstAttribute="bottom" secondItem="lLI-gi-YjT" secondAttribute="bottom" constant="40" id="519-pw-Yd8"/>
+                            <constraint firstItem="phT-G2-cCy" firstAttribute="trailing" secondItem="lLI-gi-YjT" secondAttribute="trailing" constant="58" id="Aok-NS-n3q"/>
+                            <constraint firstItem="cU4-yV-ENK" firstAttribute="top" secondItem="phT-G2-cCy" secondAttribute="top" constant="40" id="Byr-ce-JaJ"/>
+                            <constraint firstItem="cU4-yV-ENK" firstAttribute="leading" secondItem="phT-G2-cCy" secondAttribute="leading" constant="56" id="Dv0-TQ-90s"/>
+                            <constraint firstItem="phT-G2-cCy" firstAttribute="trailing" secondItem="cU4-yV-ENK" secondAttribute="trailing" constant="58" id="JF1-4q-OL7"/>
+                            <constraint firstItem="lLI-gi-YjT" firstAttribute="leading" secondItem="phT-G2-cCy" secondAttribute="leading" constant="56" id="b5K-qR-wmD"/>
+                            <constraint firstItem="lLI-gi-YjT" firstAttribute="top" secondItem="cU4-yV-ENK" secondAttribute="bottom" constant="20" id="clS-pI-UGX"/>
+                            <constraint firstItem="lLI-gi-YjT" firstAttribute="height" secondItem="cU4-yV-ENK" secondAttribute="height" id="nJa-pq-FHd"/>
                         </constraints>
                         <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="8" bottom="8" trailing="8"/>
                     </view>
